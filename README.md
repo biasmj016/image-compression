@@ -1,1 +1,2 @@
-Simple Image Compression
+## Simple Image Compression
+
