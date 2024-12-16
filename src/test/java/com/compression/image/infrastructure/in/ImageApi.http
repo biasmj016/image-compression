@@ -1,0 +1,18 @@
+### Compress Images
+POST http://localhost:8080/api/images/compress
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="files"; filename="test_img.jpg"
+Content-Type: image/jpeg
+
+< /{path}/src/test/resources/test_img.jpg
+--boundary
+Content-Disposition: form-data; name="format"
+
+jpeg
+--boundary
+Content-Disposition: form-data; name="quality"
+
+0
+--boundary--
