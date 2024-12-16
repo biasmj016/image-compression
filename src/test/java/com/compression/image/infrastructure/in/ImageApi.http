@@ -10,7 +10,7 @@ Content-Type: image/jpeg
 --boundary
 Content-Disposition: form-data; name="format"
 
-jpeg
+jpg
 --boundary
 Content-Disposition: form-data; name="quality"
 
